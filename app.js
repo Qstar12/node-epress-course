@@ -4,6 +4,7 @@ const people = require("./routes/people");
 const auth = require('./routes/auth');
 
 
+
 // static assets
 app.use(express.static("./methods-public"));
 // parse form data
